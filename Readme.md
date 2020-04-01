@@ -1,7 +1,7 @@
 # Личный проект «Менеджер задач» [![Build status][travis-image]][travis-url]
 
 * Студент: [Виталий Никитин](https://up.htmlacademy.ru/ecmascript/11/user/172007).
-* Наставник: `Неизвестно`.
+* Наставник: [Станислав Посиделов](https://up.htmlacademy.ru/ecmascript/11/user/682863).
 
 ---
 
