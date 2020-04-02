@@ -6,6 +6,10 @@ const mainElement = document.querySelector(`.main`);
 const mainControlElement = mainElement.querySelector(`.main__control`);
 const mainFilterElement = mainElement.querySelector(`.main__filter`);
 
+const renderMarkup = (container, markup, position = `beforeend`) => {
+  container.insertAdjacentHTML(position, markup);
+};
+
 const getMenuMarkup = () => (
   `<section class="control__btn-wrap">
     <input
@@ -355,10 +359,6 @@ const getCardMarkup = () => (
 );
 
 const getButtonMarkup = () => `<button class="load-more" type="button">load more</button>`;
-
-const renderMarkup = (container, markup, position = `beforeend`) => {
-  container.insertAdjacentHTML(position, markup);
-};
 
 renderMarkup(mainControlElement, getMenuMarkup());
 renderMarkup(mainFilterElement, getFiltersMarkup());
